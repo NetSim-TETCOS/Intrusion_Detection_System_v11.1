@@ -1,0 +1,39 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(377,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  CSMACA.c
+  Generic_RateAdaptation.c
+  IEEE1609_interface.c
+  IEEE802.11_OFDMPhy.c
+  IEEE802_11.c
+  IEEE802_11ac.c
+  IEEE802_11e.c
+  IEEE802_11n.c
+  IEEE802_11_DSSSPhy.c
+  IEEE802_11_enum.c
+  IEEE802_11_HTPhy.c
+  IEEE802_11_Mac.c
+  IEEE802_11_MacFrame.c
+  IEEE802_11_Phy.c
+  IEEE802_11_PhyFrame.c
+  IEEE802_11_Radio.c
+  InfrastructureBSS.c
+  MeshBSS.c
+  Minstrel.c
+  Minstrel_ht.c
+c:\users\pc5\desktop\intrusion_detection_system\src\simulation\ieee802_11\minstrel_ht.c(782): warning Msg: Implement the HT_Minstrel_Free
+  Generating Code...
+  Compiling...
+  PropagationModel.c
+  RTS_CTS.c
+  Watchdog.c
+  Generating Code...
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1216,5): warning MSB8012: TargetPath(C:\Users\PC5\Desktop\Intrusion_Detection_System\src\Simulation\IEEE802_11\..\..\..\bin\bin_x64\IEEE802_11.dll) does not match the Linker's OutputFile property value (C:\Users\PC5\Desktop\Intrusion_Detection_System\bin\bin_x64\libIEEE802.11.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1218,5): warning MSB8012: TargetName(IEEE802_11) does not match the Linker's OutputFile property value (libIEEE802.11). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+CSMACA.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+  IEEE802.11.lib(IEEE802.11lib.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+CSMACA.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+     Creating library ..\..\..\bin\bin_x64\IEEE802_11.lib and object ..\..\..\bin\bin_x64\IEEE802_11.exp
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Generating code
+  Finished generating code
+IEEE802.11.lib(IEEE802.11lib.obj) : warning LNK4099: PDB 'IEEE802.11lib.pdb' was not found with 'IEEE802.11.lib(IEEE802.11lib.obj)' or at 'C:\Users\PC5\Desktop\Intrusion_Detection_System\bin\bin_x64\IEEE802.11lib.pdb'; linking object as if no debug info
+  IEEE802_11.vcxproj -> C:\Users\PC5\Desktop\Intrusion_Detection_System\src\Simulation\IEEE802_11\..\..\..\bin\bin_x64\IEEE802_11.dll
